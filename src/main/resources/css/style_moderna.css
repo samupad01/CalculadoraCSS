@@ -1,0 +1,85 @@
+#view {
+	-fx-background-color: black;
+	-fx-font-family: "monospace";
+	-fx-hgap: 5px;
+	-fx-vgap: 5px;
+	-fx-paddin: 5px;
+}
+
+#screenText {
+	-fx-text-fill: lightgray;
+	-fx-text-alignment: center-right;
+	-fx-font-size: 25pt;
+	-fx-font-weight: bold;
+	-fx-padding: 10px;
+	-fx-background-color: transparent;
+	-fx-background-insets: 0px;
+}
+
+.button {
+	-fx-font-size: 16pt;
+	-fx-background-radius: 5em;
+	-fx-border-radius: 5em;
+	-fx-background-insets: 0px;
+	-fx-border-insets: 0px;
+}
+
+.button-gris {
+	-fx-background-color: darkgray;
+	-fx-text-fill: white;
+}
+
+.button-gris:hover {
+	-fx-text-fill: darkgray;
+	-fx-background-color: white;
+}
+
+.button-gris:focused {
+	-fx-border-color: white;
+}
+
+.button-gris:armed {
+	-fx-border-color: yellow;
+}
+
+.button-gris:pressed {
+	-fx-text-fill: lightgray;
+	-fx-background-color: black;
+}
+
+.button-blancos {
+	-fx-background-color: lightgray;
+	-fx-text-fill: black;
+}
+
+.button-blancos:hover {
+	-fx-background-color: white;
+}
+
+.button-blancos:pressed {
+	-fx-text-fill: lightgray;
+	-fx-background-color: black;
+}
+
+.button-naranjas {
+	-fx-text-fill: white;
+	-fx-background-color: orange;
+}
+
+.button-naranjas:hover {
+	-fx-background-color: darkorange;
+}
+
+.button-naranjas:hover:default {
+	-fx-background-color: red;
+}
+
+.button-naranjas:pressed {
+	-fx-text-fill: orange;
+	-fx-background-color: white;
+}
+
+#equalButton:default {
+	-fx-background-color: orangered;
+	-fx-text-fill: white;
+}
